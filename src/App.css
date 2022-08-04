@@ -6,7 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.d-flex{display: flex;}
+.j-center{justify-content: center;}
+.m-t-30{margin-top: 30px;}
+.form-container input[type="text"]{padding: 7px;border:1px solid #ccc;border-radius: 3px;outline: 0;}
+.form-container button{background: #f27935;color: #fff;font-weight: bold;border:none;border-radius: 3px;margin-left: 10px;cursor: pointer;}
+.form-container{padding: 20px;}
+.list-con ol{margin:0;padding:0}
+.list-con ol li{text-align: left;}
+.list-con{margin:11px 13px}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
